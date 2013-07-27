@@ -4,7 +4,7 @@ Arduino Library for use with RS485 devices. It creates a software-serial on pins
 
 Pin D4 is enabled when sending data over the data bus.
 
-I used SN751768P chip to transmit the data over CAT5 cable.
+I used SN75176BP chip to transmit the data over CAT5 cable and Arduino UNO.
 
 
 How to install it:
