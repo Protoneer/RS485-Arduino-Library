@@ -1,6 +1,10 @@
 RS485-Arduino-Library
 =====================
-Arduino Library for use with RS485 devices. It creates a software-serial on pins D2(RX) and D3(TX) that is connected to a RS485 chip. Pin D4 is enabled when sending data over the data bus. 
+Arduino Library for use with RS485 devices. It creates a software-serial on pins D2(RX) and D3(TX) that is connected to a RS485 chip. 
+
+Pin D4 is enabled when sending data over the data bus.
+
+I used SN751768P chip to transmit the data over CAT5 cable.
 
 
 How to install it:
