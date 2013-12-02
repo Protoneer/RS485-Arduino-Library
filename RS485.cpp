@@ -42,6 +42,10 @@ byte crc8 (const char *addr)
       inbyte >>= 1;
       }  // end of for
     }  // end of while
+    
+    //ADDED FOR PROBLEMS WITH crc = STX or ETX
+    if(crc==STX || crc==ETX) crc=crc-2;
+    
   return crc;
 }  // end of crc8
 
